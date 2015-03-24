@@ -1,8 +1,32 @@
 [
   {
     "remote":      "github",
-    "repository": "android_device_lge_g3-common",
+    "repository": "sycolon/vendor_lge",
+    "target_path": "vendor/lge"
+   "branch":      "master"
+  },
+   {
+    "remote":      "github",
+    "repository": "sycolon/android_device_qcom_common",
+    "target_path": "device/qcom_common"
+   "branch":      "master"
+  },
+   {
+    "remote":      "github",
+    "repository": "sycolon/android_device_lge_d855",
+    "target_path": "device/lge/d855"
+   "branch":      "master"
+  },
+   {
+    "remote":      "github",
+    "repository": "sycolon/android_device_lge_g3-common",
     "target_path": "device/lge/g3-common"
-   "branch":      "cm-12.0"
-  }
+   "branch":      "master"
+  },
+   {
+    "remote":      "github",
+    "repository": "sycolon/android_kernel_lge_g3",
+    "target_path": "kernel/lge/g3"
+   "branch":      "master"
+  },
 ]
